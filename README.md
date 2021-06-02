@@ -32,14 +32,14 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 The configuration details of each machine may be found below.
 
+|Name|Function|IP Address|Operating System|
+|---|---|---|---|
+|Jump Box|Administrative|10.0.0.7|Ubuntu Linux|
+|Web-1|WebServer|10.0.0.7|Ubuntu Linux|
+|Web-2|WebServer|10.0.0.11|Ubuntu Linux|
+|Web-3|WebServer|10.0.0.9|Ubuntu Linux|
+|ElkStack|Elk Server|10.2.0.4|Ubuntu Linux|
 
-Name	    Function	     IP Address	Operating System
------	    -----	         -----	    -----
-Jump Box	Administrative   10.0.0.7   Ubuntu Linux
-Web-1		WebServer        10.0.0.11	Ubuntu Linux
-Web-2		WebServer        10.0.0.9	Ubuntu Linux
-Web-3		WebServer        10.0.0.12	Ubuntu Linux
-ElkStack	Elk Server       10.2.0.4	Ubuntu Linux
 
 ### Access Policies
 
