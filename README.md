@@ -53,14 +53,17 @@ Machines within the network can only be accessed by the jump box internal addres
 
 A summary of the access policies in place can be found in the table below.
 
-Name	    Publicly Accessible	        Allowed IP Addresses
------	            -----	                -----
-Jump Box	        Yes	                    20.42.98.33
-Load Balancer	    Yes	                    104.51.129.248
-Web-1	            No	                    10.0.0.11
-Web-2	            No	                    10.0.0.9
-Web-3	            No	                    10.0.0.12
-ElkStack	        No	                    10.2.0.4
+
+|Name|Publicly Accessible|Allowed IP Addresses|
+|---|---|---|
+|Jump Box|Yes|20.42.98.33|
+|Load Balancer|Yes|104.51.129.248|
+|Web-1|No|10.0.0.11|
+|Web-2|No|10.0.0.9|
+|Web-3|No|10.0.0.12|
+|ElkStack|No|10.2.0.4|
+
+
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it allows for uniform installations and 
